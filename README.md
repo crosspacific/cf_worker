@@ -1,4 +1,4 @@
-### CloudFlare Workers反代代码（可分别用两个账号的应用程序名,`协议`、`UUID`保持一致）
+### CloudFlare Workers反代代码（可分别用两个账号的应用程序名，`协议`、`UUID`保持一致）
 <details>
 <summary>CloudFlare Workers单账户反代代码</summary>
 
