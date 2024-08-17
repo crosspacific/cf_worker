@@ -228,11 +228,11 @@ generate_config() {
         ],
         "tls": {
             "enabled": true,
-            "server_name": "www.tesla.com",
+            "server_name": "www.ups.com",
             "reality": {
                 "enabled": true,
                 "handshake": {
-                    "server": "www.tesla.com",
+                    "server": "www.ups.com",
                     "server_port": 443
                 },
                 "private_key": "$private_key",
