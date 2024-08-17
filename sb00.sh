@@ -178,15 +178,6 @@ generate_config() {
           "geosite-netflix"
         ],
         "server": "wireguard"
-      },
-      {
-        "rule_set": [
-          "geoip-cn",
-          "geosite-cn",
-          "geosite-category-porn",
-          "geosite-category-ads-all"
-        ],
-        "server": "block"
       }
     ],
     "final": "google",
@@ -296,6 +287,10 @@ generate_config() {
   ],
   "route": {
     "rules": [
+      {
+        "inbound": "hysteria-ini",
+        "outbound": "direct"
+      },
       {
         "protocol": "dns",
         "outbound": "dns-out"
