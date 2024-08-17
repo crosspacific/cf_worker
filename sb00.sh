@@ -307,7 +307,7 @@ generate_config() {
       {
         "rule_set": [
           "geosite-openai",
-		  "geosite-netflix"
+          "geosite-netflix"
         ],
         "outbound": "wireguard-out"
       },
