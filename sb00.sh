@@ -243,7 +243,7 @@ generate_config() {
         }
     },
     {
-       "tag": "hysteria-in",
+       "tag": "hysteria-ini",
        "type": "hysteria2",
        "listen": "::",
        "listen_port": $tuic_port,
