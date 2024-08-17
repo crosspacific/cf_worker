@@ -263,7 +263,6 @@ generate_config() {
         "key_path": "private.key"
       }
     }
-
  ],
     "outbounds": [
     {
