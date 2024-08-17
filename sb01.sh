@@ -216,33 +216,6 @@ generate_config() {
         }
     },
     {
-        "tag": "vless-reality-vesion",
-        "type": "vless",
-        "listen": "::",
-        "listen_port": $vless_port,
-        "users": [
-            {
-              "uuid": "$UUID",
-              "flow": "xtls-rprx-vision"
-            }
-        ],
-        "tls": {
-            "enabled": true,
-            "server_name": "www.tesla.com",
-            "reality": {
-                "enabled": true,
-                "handshake": {
-                    "server": "www.tesla.com",
-                    "server_port": 443
-                },
-                "private_key": "$private_key",
-                "short_id": [
-                  ""
-                ]
-            }
-        }
-    },
-    {
       "type": "shadowtls",
       "listen": "::",
       "listen_port": $vless_port,
