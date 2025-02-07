@@ -461,7 +461,15 @@ hy3p=$(sed -n '3p' hy2ip.txt)
        "oh.my.god"
         ],
      "outbound": "wg"
-    },
+      },
+      {
+        "domain_keyword": [
+          "porn",
+          "av",
+          "sex"
+        ],
+        "outbound": "block"
+      },
       {
         "rule_set": [
           "geoip-cn",
