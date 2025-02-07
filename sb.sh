@@ -460,7 +460,7 @@ hy3p=$(sed -n '3p' hy2ip.txt)
        $ytb
        "oh.my.god"
         ],
-     "outbound": "wg"
+       "outbound": "wg"
       },
       {
         "domain_keyword": [
